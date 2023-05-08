@@ -83,14 +83,14 @@ fun <T> Table(
 fun Demo_Table() {
     val people = listOf(
         Person("Alex", 21, false, "alex@demo-email.com"),
-        Person("Adam", 35, true, "adam@demo-email.com"),
+        Person("Adam X", 35, true, "adam@demo-email.com"),
         Person("Iris", 26, false, "iris@demo-email.com"),
         Person("Marie", 32, false, "maria@demo-email.com"),
         Person("Iris", 26, false, "iris@demo-email.com"),
         Person("Marii", 32, false, "maria@demo-email.com"),
-        Person("Iris", 26, false, "iris@demo-email.com"),
+        Person("Iris Y", 26, false, "iris@demo-email.com"),
         Person("Maria", 32, false, "maria@demo-email.com"),
-        Person("Iris", 26, false, "iris@demo-email.com"),
+        Person("Iris X", 29, false, "iris@demo-email.com"),
         Person("Marie", 32, false, "maria@demo-email.com"),
         Person("Adam", 35, true, "adam@demo-email.com"),
         Person("Mario", 32, false, "maria@demo-email.com"),

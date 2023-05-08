@@ -41,15 +41,21 @@ fun MainScreen(){
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ){
-        Text("Pantalla principal")
-        Text(
-            "Bienveni@s",
-            fontSize = 30.sp,
-            fontWeight = FontWeight.Bold
-        )
+        HeadScreen()
         // SimpleTableM(menuItems = DataProvider.coffeeMenu)
-        Demo_Table()
+        //Demo_Table()
+        MapaBase()
     }
+}
+
+@Composable
+fun HeadScreen(){
+    Text("Pantalla principal")
+    Text(
+        "Bienveni@s",
+        fontSize = 30.sp,
+        fontWeight = FontWeight.Bold
+    )
 }
 
 
